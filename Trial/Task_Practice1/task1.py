@@ -31,6 +31,7 @@ print(c)
 print(d)
 print(e)
 print(f)
+print()
 #8
 Friends=[f"john,richard,santhosh,zen"]
 print(Friends)
