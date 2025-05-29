@@ -1,0 +1,33 @@
+.cointainer{
+    height: 700px;
+    width: 800px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.box1{
+    height: 70px;
+    width: 100%;;
+    background-color:white;
+    color: black;
+    text-indent: 60px;
+    
+}
+.box2{
+    height: 190px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    text-indent: 10px;
+}
+.box3{
+    height: 50px;
+    width: 100%;
+    text-indent: 60px;
+}
+.box4{
+    padding-left: 60px;
+}
+.box5{
+    padding-left: 70px;
+}
