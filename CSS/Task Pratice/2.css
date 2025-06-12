@@ -1,0 +1,31 @@
+.cointainer{
+    display: grid;
+    border: 3px solid black;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 50px 50px 200px 0px 80px;
+}
+.cointainer div{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+.header{
+    grid-column: span 3;
+}
+.navi{
+    grid-column: span 3;
+}
+.index{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.con{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.footer{
+    grid-column: span 3;
+}

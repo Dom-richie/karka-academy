@@ -1,0 +1,56 @@
+.cointainer{
+    display: grid;
+    grid-template-columns: repeat(5,130px);
+    grid-template-rows: 100px 30px 400px 100px;
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+}
+.header{
+    background-color: black;
+    color: white;
+    grid-column: span 5;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+.nav{
+    background-color: rgb(108, 108, 108);
+    color: white;
+    grid-column: span 5;
+    font-size: 27px;
+    padding-left: 50px;
+}
+.mc{
+    background-color: rgba(192, 191, 191, 0.827);
+    color: black;
+    grid-column: span 3;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    padding-top: 100px;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.sb{
+    background-color: rgba(192, 191, 191, 0.827);
+    color: black;
+    grid-column: span 2;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    padding-top: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+}
+.footer{
+    background-color: rgb(81, 81, 81);
+    color: white;
+    grid-column: span 5;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}

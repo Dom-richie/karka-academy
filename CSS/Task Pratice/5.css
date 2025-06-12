@@ -1,0 +1,26 @@
+.cointainer{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: 40px 140px 20px;
+}
+.cointainer div{
+    display: grid;
+    justify-content: center;
+    color: white;
+}
+.header{
+    background-color: rgb(255, 179, 0);
+    grid-column: span 3;
+}
+.nav{
+    background-color: blue;
+}
+.article{
+    background-color: green;
+    grid-column: span 2;
+    
+}
+.footer{
+    background-color: brown;
+    grid-column: span 3;
+}

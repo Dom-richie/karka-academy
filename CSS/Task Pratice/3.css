@@ -1,0 +1,38 @@
+.cointainer{
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    grid-template-rows: 100px 80px 120px 120px 120px 60px 20px;
+}
+.cointainer div{
+    background-color: rgb(189, 189, 189);
+    color: black;
+    border: 5px solid white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    grid-column: span 2;
+}
+.nav{
+    grid-column: span 2;
+}
+.main{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.aside{
+     grid-column: span 1;
+     grid-row: span 1;
+}
+.section{
+     grid-column: span 1;
+     grid-row: span 1;
+}
+.aside2{
+     grid-column: span 2;
+     grid-row: span 1;
+}
+.footer{
+    grid-column: span 2;
+}
